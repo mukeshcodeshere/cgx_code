@@ -1,0 +1,24 @@
+<!-- app/templates/trade.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade - CGX</title>
+</head>
+<body>
+    <h1>Trade on Curiosity Global Exchange (CGX)</h1>
+    <form action="/trade" method="post">
+        <label for="base_currency">Base Currency:</label>
+        <input type="text" id="base_currency" name="base_currency" required>
+        <br>
+        <label for="quote_currency">Quote Currency:</label>
+        <input type="text" id="quote_currency" name="quote_currency" required>
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" required>
+        <br>
+        <input type="submit" value="Trade">
+    </form>
+</body>
+</html>
