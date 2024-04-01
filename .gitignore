@@ -1,4 +1,18 @@
+# Ignore all csv files
 *.csv
+
+# Ignore all xlsx files
+*.xlsx
+
+# Ignore all db files
 *.db
-instance/cgx.db
-cgx.db
+
+# Ignore all csv files in all folders
+**/*.csv
+
+# Ignore all xlsx files in all folders
+**/*.xlsx 
+
+# Ignore all db files in all folders
+**/*.db
+```
