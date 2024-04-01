@@ -1,3 +1,4 @@
 *.csv
 *.db
 instance/cgx.db
+cgx.db
