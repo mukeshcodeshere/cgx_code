@@ -1,17 +1,68 @@
-# Curiosity Global Exchange  
-## Improving Liquidity between FICC instruments & Cryptocurrencies
+# Curiosity Global Exchange
 
-### Clone the repo
-1) git clone git@github.com:mukeshcodeshere/cgx_code.git
-2) cd cgx_code
+Curiosity Global Exchange aims to improve liquidity between traditional financial instruments (FICC) and cryptocurrencies. 
 
-### Create and Activate environment 
-3) conda env create -f environment.yaml
-4) conda activate cgx_code
+## Getting Started
 
-### Run the script to initialize the database [FAKE DATA] 
-### TODO:Need to integrate live data from APIs
-5) python db_init.py
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Run Flask application
-6) python run.py
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+- Python 3.12
+- Conda
+- Pip
+- Git
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+1. Clone the repository
+
+```
+git clone git@github.com:mukeshcodeshere/cgx_code.git
+```
+
+2. Navigate into the project directory
+
+```
+cd cgx_code
+```
+
+3. Create and activate a virtual conda environment
+
+```
+conda env create -f environment.yaml
+conda activate cgx_code
+```
+
+4. Initialize the database with fake data (will become live data in future after API integration)
+
+``` 
+python db_init.py
+```
+
+5. Run the Flask application
+
+```
+python run.py
+```
+
+The app will now be running at `http://localhost:5000`
+
+## Built With
+
+- [Flask](https://flask.palletsprojects.com/) - The web framework used
+- [SQLAlchemy](https://www.sqlalchemy.org/) - Database ORM  
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
