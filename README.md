@@ -53,16 +53,3 @@ python run.py
 ```
 
 The app will now be running at `http://127.0.0.1:5000` (MIGHT BE DIFFERENT, LOOK AT BASH OUTPUT)
-
-## Built With
-
-- [Flask](https://flask.palletsprojects.com/) - The web framework used
-- [SQLAlchemy](https://www.sqlalchemy.org/) - Database ORM  
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
