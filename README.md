@@ -14,4 +14,4 @@
 5) python db_init.py
 
 ### Run Flask application
-6) python db_init.py
+6) python run.py
