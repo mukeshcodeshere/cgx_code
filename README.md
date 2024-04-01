@@ -52,7 +52,7 @@ python db_init.py
 python run.py
 ```
 
-The app will now be running at `http://localhost:5000`
+The app will now be running at `http://127.0.0.1:5000` (MIGHT BE DIFFERENT, LOOK AT BASH OUTPUT)
 
 ## Built With
 
