@@ -1,4 +1,4 @@
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -10,4 +10,22 @@ body::-webkit-scrollbar-track {
     opacity: 0; 
     box-shadow: 0px 0px 0px 100000vh #D3D3D3;
   }
+ */
 
+ ::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1e1e1e;
+}
+
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
