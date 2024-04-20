@@ -1,25 +1,48 @@
 # db_init.py
+from forex_python.converter import CurrencyRates
+from datetime import datetime
 from app import create_app, db
 from app.models import CurrencyPair
 
 app = create_app()
 
-with app.app_context():
+def fetch_currency_rates():
+    c = CurrencyRates()
+    # Get the latest currency rates for USD
+    return c.get_rates('USD')
+
+def clear_and_reset_database():
+    # Drop all tables from the database
+    db.drop_all()
+    # Create all tables in the database
     db.create_all()
 
-    # Sample currency pairs
-    btc_usdt = CurrencyPair(base_currency='bitcoin', quote_currency='usdt', exchange_rate=50000.0)
-    eth_usdt = CurrencyPair(base_currency='ethereum', quote_currency='usdt', exchange_rate=2000.0)
-    btc_usdc = CurrencyPair(base_currency='bitcoin', quote_currency='usdc', exchange_rate=50000.0)
-    eth_usdc = CurrencyPair(base_currency='ethereum', quote_currency='usdc', exchange_rate=2000.0)
+def populate_database():
+    currency_rates = fetch_currency_rates()
+    if not currency_rates:
+        print("No currency rates fetched. Exiting.")
+        return
+    for currency, rate in currency_rates.items():
+        # Split currency code into base and quote currencies
+        base_currency = 'BTC'
+        quote_currency = currency
+        exchange_rate = rate
+        #timestamp = datetime.utcnow()  # Get the current timestamp
 
-    # Add the currency pairs to the session
-    db.session.add(btc_usdt)
-    db.session.add(eth_usdt)
-    db.session.add(btc_usdc)
-    db.session.add(eth_usdc)
+        # Create a CurrencyPair object for each currency rate
+        currency_pair = CurrencyPair(base_currency=base_currency, quote_currency=quote_currency, exchange_rate=exchange_rate)   #, timestamp=timestamp)
+        db.session.add(currency_pair)
 
     # Commit the changes to the database
     db.session.commit()
 
     print("Database initialized successfully.")
+
+if __name__ == "__main__":
+    # with app.app_context():
+    #     populate_database()
+    
+    with app.app_context():
+        #clear_and_reset_database() # call this before populate if you want to reset db
+        populate_database()
+
