@@ -4,9 +4,9 @@
       <img src="https://bitcoin.org/img/icons/logotop.svg?1712660896" width="200"/>
   </a>
   <br/>
-  Cryptocurrency Dashboard
+  Curiosity Global Interface
   <h3 align="center">
-    Discover Cryptos, charts, and MarketCaps !
+    Trade FICC instruments & Cryptocurrencies with ease.
 </h3>
 
 <br/>
@@ -27,7 +27,7 @@
 <!-- Project Introduction -->
 ## **Introduction**
 <p>
-    Curiosity Global is a web application that allows users to view cryptocurrency trends and their past price through graphical visualization.</p>
+    Curiosity Global is a software that allows users to view cryptocurrency trends and their past price through graphical visualization.</p>
 <br />
 
 ![DashBoard home page](https://bitcoin.org/img/icons/logotop.svg?1712660896)
@@ -36,30 +36,41 @@
 <!-- FEATURES -->
 
 ## **FEATURES**
-- user can view data visuals through dynamic graphs
-- user can search cryptos 
-- user can sort cryptos
-- user can view Live previews of cryptos
-- user can view app on Fullscreen mode
-- user can choose Chart types
-- user can click on Duration buttons to view past prices and current prices of cryptos through graphs. 
-- Sidebar indicates profit/loss percentage on 24 hour basis
-- Crypto Exchange: allows users to convert different crypto currencies into other currencies
-- Responsive
-- sidebar pagination
+*Data Visualization*
+- View interactive graphs and charts to visualize crypto data 
+- Choose from different chart types (line, bar, candlestick etc.)
+
+*Search and Filter*
+- Search for specific cryptocurrencies
+- Sort and filter cryptos by various attributes
+
+*Live Previews and Updates*  
+- See real-time price data and percentage changes
+- View historical price data through dynamic graphs
+- Toggle fullscreen mode for expanded view
+
+*Analysis Tools*
+- Click duration buttons to compare past and current prices
+- Sidebar shows 24-hour profit/loss percentage 
+
+*Crypto Exchange*
+- Convert between different cryptocurrencies
+
+*Usability*
+- Fully responsive design
+- Sidebar with pagination for easy navigation
+
+*Work in Progress*
+- Live database integration
+
 
 <br />
 
 <!-- BUILT WITH -->
 
-## **Technology/ Languages Used**
+## **Technology Used**
 
-- Tailwind CSS
-- Redux
-- Redux Thunk
 - ReactJS
-- ContextApi
-- Chartjs
 - CoinGeckoAPI
 
 <br />
