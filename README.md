@@ -77,6 +77,7 @@
 <!-- HOW TO RUN LOCALLY -->
 
 ## **How to Run locally**
+- You would need Git & Node pre-installed to run the code.
 - To run this project locally, use the following command in your CLI:
 
 ```bash
