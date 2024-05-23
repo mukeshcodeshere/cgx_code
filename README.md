@@ -92,3 +92,8 @@
 - Go to browser and search localhost:3000
 
 <br />
+
+## **Market Making**
+- Our market making algorithms can be found in the notebooks under the "Market_Making" folder
+
+<br />

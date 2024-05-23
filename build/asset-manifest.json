@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20191498.css",
+    "main.js": "/static/js/main.d65fb753.js",
+    "static/js/787.30c80a2b.chunk.js": "/static/js/787.30c80a2b.chunk.js",
+    "static/media/almalogo.png": "/static/media/almalogo.5364732d0ff83d0466fe.png",
+    "index.html": "/index.html",
+    "static/media/pagination-arrow.svg": "/static/media/pagination-arrow.4a704deb13b35a43e546a281996247fb.svg",
+    "static/media/select-icon.svg": "/static/media/select-icon.4143ea05c64a0b071153acb947d2b3a8.svg",
+    "main.20191498.css.map": "/static/css/main.20191498.css.map",
+    "main.d65fb753.js.map": "/static/js/main.d65fb753.js.map",
+    "787.30c80a2b.chunk.js.map": "/static/js/787.30c80a2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20191498.css",
+    "static/js/main.d65fb753.js"
+  ]
+}
