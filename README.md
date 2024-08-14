@@ -7,10 +7,9 @@
   Curiosity Global Interface
   <h3 align="center">
     Trade FICC instruments & Cryptocurrencies with ease.
-</h3>
-
-<br/>
-
+  </h3>
+  <br/>
+</h1>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -18,63 +17,65 @@
     <ol>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#features">Features</a></li>
-        <li><a href="#technology-languages-used">Technology/ Languages Used</a></li>
+        <li><a href="#technology-used">Technology Used</a></li>
         <li><a href="#how-to-run-locally">How to Run Locally</a></li>
+        <li><a href="#market-making">Market Making</a></li>
         <li><a href="#how-to-contribute">How to Contribute</a></li>
     </ol>
 </details>
 
-<!-- Project Introduction -->
-## **Introduction**
-<p>
-    Curiosity Global is a software that allows users to view cryptocurrency trends and their past price through graphical visualization.</p>
-<br />
+<!-- INTRODUCTION -->
+## Introduction
+Curiosity Global is a software that allows users to view cryptocurrency trends and their past price through graphical visualization. It’s designed to make trading FICC instruments and cryptocurrencies more accessible and user-friendly.
 
-![DashBoard home page](https://bitcoin.org/img/icons/logotop.svg?1712660896)
+![Dashboard home page](https://bitcoin.org/img/icons/logotop.svg?1712660896)
 
-<br />
 <!-- FEATURES -->
+## Features
 
-## **FEATURES**
-*Data Visualization*
-- View interactive graphs and charts to visualize crypto data 
-- Choose from different chart types (line, bar, candlestick etc.)
+### Data Visualization
+- **Interactive Graphs and Charts**: View interactive graphs and charts to visualize crypto data.
+- **Multiple Chart Types**: Choose from different chart types, including line, bar, and candlestick.
 
-*Search and Filter*
-- Search for specific cryptocurrencies
-- Sort and filter cryptos by various attributes
+### Search and Filter
+- **Search Functionality**: Search for specific cryptocurrencies.
+- **Filter and Sort Options**: Sort and filter cryptos by various attributes such as price, volume, and market cap.
 
-*Live Previews and Updates*  
-- See real-time price data and percentage changes
-- View historical price data through dynamic graphs
-- Toggle fullscreen mode for expanded view
+### Live Previews and Updates  
+- **Real-Time Price Data**: See real-time price data and percentage changes.
+- **Historical Price Data**: View historical price data through dynamic graphs.
+- **Fullscreen Mode**: Toggle fullscreen mode for an expanded view.
 
-*Analysis Tools*
-- Click duration buttons to compare past and current prices
-- Sidebar shows 24-hour profit/loss percentage 
+### Analysis Tools
+- **Duration Comparison**: Click duration buttons to compare past and current prices.
+- **Sidebar Insights**: Sidebar shows 24-hour profit/loss percentage.
 
-*Crypto Exchange*
-- Convert between different cryptocurrencies
+### Crypto Exchange
+- **Currency Conversion**: Convert between different cryptocurrencies.
 
-*Usability*
-- Fully responsive design
-- Sidebar with pagination for easy navigation
+### Watchlist
+- **Customized Watchlist**: Add cryptocurrencies to a personalized watchlist for quick access.
+- **Real-Time Updates**: Watchlist updates in real-time to reflect the latest prices and market movements.
 
-*Work in Progress*
-- Live database integration
+### Profit/Loss Calculator
+- **Instant Calculations**: Calculate potential profit or loss from trades based on buy and sell prices.
+- **User-Friendly Interface**: Simple and intuitive design for easy use.
 
+### Crypto News
+- **Latest News**: Stay updated with the latest cryptocurrency news and market trends.
+- **News Aggregation**: News from multiple sources to provide a comprehensive view of the market.
 
-<br />
+### Usability
+- **Fully Responsive Design**: Ensures a seamless experience across all devices.
+- **Sidebar with Pagination**: Easy navigation through paginated content in the sidebar.
 
-<!-- BUILT WITH -->
+### Work in Progress
+- **Live Database Integration**: Continuous improvements and upcoming features to enhance user experience.
 
-## **Technology Used**
-
-- ReactJS
-- CoinGeckoAPI
-
-<br />
-<!-- HOW TO RUN LOCALLY -->
+<!-- TECHNOLOGY USED -->
+## Technology Used
+- **ReactJS**: Front-end development framework.
+- **CoinGeckoAPI**: API used for fetching cryptocurrency data.
 
 ## **How to Run locally**
 - You would need Git & Node pre-installed to run the code.
